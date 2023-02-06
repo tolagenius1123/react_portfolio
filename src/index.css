@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300;400&family=Montserrat:ital@0;1&family=Poppins&family=Raleway&family=Roboto&family=Sacramento&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	ul li {
+		@apply relative tracking-[1px];
+	}
+	ul li::after {
+		@apply content-[''] bg-[#ff004f] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
+	}
+	ul li:hover::after {
+		@apply w-[100%];
+	}
+
+	#tab-links {
+		@apply mr-12 text-lg font-semibold cursor-pointer relative;
+	}
+
+	#tab-links::after {
+		@apply content-[''] w-0 h-[3px] bg-[#ff004f] absolute left-0 bottom-[-8px] transition-[0.5s];
+	}
+
+	#tab-links::after {
+		@apply w-[100px];
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins";
+}
+
+body {
+	background: #080808;
+	color: #fff;
+}
+
+.work-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 50px;
+	margin-top: 50px;
+}
+
+.work {
+	height: 400px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.work {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+}
+
+.work img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	display: block;
+	transition: transform 0.5s;
+	object-fit: fill;
+}
+
+.work:hover img {
+	transform: scale(1.1);
+}
+
+.layer {
+	width: 100%;
+	height: 0%;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+	text-align: center;
+	font-size: 14px;
+	transition: height 0.5s;
+}
+
+.layer h3 {
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.layer a {
+	margin-top: 20px;
+	color: #ff004f;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 60px;
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.work:hover .layer {
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	#header {
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.5),
+				rgba(0, 0, 0, 0.5)
+			),
+			url(images/my_portrait.png);
+	}
+}
