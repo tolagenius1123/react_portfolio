@@ -1,17 +1,17 @@
-import React from "react"
-import html from "../assets/images/html.png"
-import css from "../assets/images/css.png"
-import tailwind from "../assets/images/tailwind.png"
-import javascript from "../assets/images/javascript.png"
-import react from "../assets/images/react.png"
-import node from "../assets/images/node.png"
-import mongo from "../assets/images/mongo.png"
-import github from "../assets/images/github.png"
+import React from "react";
+import html from "../assets/images/html.png";
+import css from "../assets/images/css.png";
+import tailwind from "../assets/images/tailwind.png";
+import javascript from "../assets/images/javascript.png";
+import react from "../assets/images/react.png";
+import node from "../assets/images/node.png";
+import mongo from "../assets/images/mongo.png";
+import github from "../assets/images/github.png";
 
 const Skills = () => {
 	return (
-		<div id="skills" className="py-8 px-[5%]">
-			<h1 className=" text-center md:text-left lg:text-left mt-8 lg:mt-0 md:mt-0 text-4xl md:text-6xl lg:text-6xl font-semibold text-[#fff]">
+		<div id="skills" className="py-8 px-[5%] scroll-mt-20">
+			<h1 className=" text-center md:text-left lg:text-left mt-8 lg:mt-0 md:mt-0 text-4xl md:text-6xl lg:text-6xl font-semibold text-[#fff] ">
 				My Skills
 			</h1>
 			<div className="mt-12 flex flex-col items-center md:flex-row lg:flex-row gap-8 flex-wrap">
@@ -49,7 +49,7 @@ const Skills = () => {
 				</div>
 			</div>
 		</div>
-	)
-}
+	);
+};
 
-export default Skills
+export default Skills;

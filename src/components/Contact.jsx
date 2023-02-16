@@ -32,7 +32,10 @@ const Contact = () => {
 	};
 
 	return (
-		<div id="contact" className="py-8 px-[5%] lg:mt-[50px] md:mt-[50px]">
+		<div
+			id="contact"
+			className="py-8 px-[5%] lg:mt-[50px] md:mt-[50px] scroll-mt-20"
+		>
 			<div className="flex flex-col lg:flex-row md:flex-row gap-10">
 				<div className="basis-2/6">
 					<h1 className=" text-left md:text-left lg:text-left mt-8 lg:mt-0 md:mt-0 text-4xl md:text-6xl lg:text-6xl font-semibold text-[#fff]">

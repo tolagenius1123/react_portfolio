@@ -4,7 +4,10 @@ import { projects } from "../data/project";
 
 const Projects = () => {
 	return (
-		<div id="projects" className="py-8 px-[5%] lg:mt-[50px] md:mt-[50px]">
+		<div
+			id="projects"
+			className="py-8 px-[5%] lg:mt-[50px] md:mt-[50px] scroll-mt-20"
+		>
 			<h1 className=" text-center md:text-left lg:text-left mt-8 lg:mt-0 md:mt-0 text-4xl md:text-6xl lg:text-6xl font-semibold text-[#fff]">
 				My Projects
 			</h1>

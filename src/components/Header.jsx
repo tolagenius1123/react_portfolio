@@ -4,7 +4,7 @@ const Header = () => {
 	return (
 		<div
 			id="header"
-			className="pt-3 px-[5%] bg-hero-pattern h-[100vh] bg-contain bg-no-repeat  md:bg-right sm:bg-center "
+			className="pt-3 px-[5%] bg-hero-pattern h-[100vh] bg-contain bg-no-repeat  md:bg-right sm:bg-center scroll-mt-40"
 		>
 			<div className="mt-[60%] text-3xl text-center md:text-center md:mt-[80%] lg:text-left lg:mt-[12%]">
 				<h1 className=" lg:text-7xl md:text-5xl lg:text-left text-[#fff] font-bold text-3xl text-center">
