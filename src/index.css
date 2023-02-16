@@ -40,10 +40,6 @@ body {
 	color: #fff;
 }
 
-#header {
-	background-image: url(images/my_portrait.png);
-}
-
 .work-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
