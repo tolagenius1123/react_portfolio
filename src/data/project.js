@@ -23,4 +23,20 @@ export const projects = [
 			"A react notes app that stores your short notes, has a light and dark mode feature and a search bar functionality.",
 		link: "https://tola-notes-app.netlify.app/",
 	},
+	{
+		id: 3,
+		image: "https://res.cloudinary.com/dkoi9zeli/image/upload/v1678455574/projects/cheetrr_msgkvi.png",
+		name: "Cheetrr Website",
+		description:
+			"A collaborative project with a product designer and a backend developer",
+		link: "https://www.cheetrr.com/",
+	},
+	{
+		id: 4,
+		image: "https://res.cloudinary.com/dkoi9zeli/image/upload/v1678455662/projects/afct_gxhzk2.png",
+		name: "African Creative Technology Initiative",
+		description:
+			"This was specifically built to register users for a digital training",
+		link: "https://theafct.org/",
+	},
 ];
