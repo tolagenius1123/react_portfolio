@@ -39,4 +39,18 @@ export const projects = [
 			"This was specifically built to register users for a digital training",
 		link: "https://theafct.org/",
 	},
+	{
+		id: 5,
+		image: "https://res.cloudinary.com/dkoi9zeli/image/upload/v1691519036/darum_mobile_dkwldy.png",
+		name: "Darum Logistics Landing Page",
+		description: "Landing page for a Logistics company",
+		link: "https://darum.vercel.app/",
+	},
+	{
+		id: 6,
+		image: "https://res.cloudinary.com/dkoi9zeli/image/upload/v1691519375/github_clone_ktbufx.png",
+		name: "GitHub Clone",
+		description: "The project I used to get comfortable with TypeScript",
+		link: "https://githubclonebytola.vercel.app/",
+	},
 ];
