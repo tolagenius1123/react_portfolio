@@ -46,8 +46,7 @@ const About = () => {
 											Feb 2022 - Oct 2022
 										</span>
 										<br />
-										Software Engineer Trainee @Semicolon
-										Africa
+										Software Engineer Trainee @Gomycode
 									</div>
 									<div className="mt-4">
 										<span className="text-[#ff004f] text-base">

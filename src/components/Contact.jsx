@@ -70,7 +70,7 @@ const Contact = () => {
 						</a>
 					</div>
 					<a
-						href="images/tola_reactdev_final.pdf"
+						href="images/jinadu_resume.pdf"
 						download
 						className="no-underline border-none w-[65%] text-[#fff] bg-[#ff004f]  text-base lg:text-lg font-light p-4 top-5 rounded-md duration-[0.5s] hover:bg-[#4837ff] hover:text-[#fff]"
 					>
