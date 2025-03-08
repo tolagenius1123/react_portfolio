@@ -67,7 +67,7 @@ body {
 	border-radius: 10px;
 	display: block;
 	transition: transform 0.5s;
-	object-fit: fill;
+	object-fit: cover;
 }
 
 .work:hover img {
